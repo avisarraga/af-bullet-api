@@ -21,7 +21,7 @@ export default async function handler(req, res) {
       messages: [
         {
           role: "system",
-          content: "You are an expert in writing Air Force-style bullets. Respond in concise action-impact-result format."
+          content: "You are an expert in writing Air Force-style bullets. Return them as concise action-impact-result format."
         },
         {
           role: "user",
